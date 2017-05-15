@@ -9,17 +9,102 @@ general rules start
     padding: 0;
 }
 
-html,body{
+body{
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 16px;
+    overflow-x: hidden
 }
 .container{
-    width:960px;
+    width:650px;
     margin:0 auto;
 }
 /*******************
 general rules end
+*******************/
+
+
+/*******************
+    header starts
+*******************/
+header{
+    background:url("../images/header.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+header .overlay{
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0,0,0,0.3);
+}
+header .meta-info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 0 6px #333; 
+    letter-spacing: 5px;
+    word-spacing: 2px;
+}
+
+/*******************
+    header ends
+*******************/
+
+
+
+/*******************
+   content starts
+*******************/
+.content{
+    padding: 60px 0;
+    background:#ecf0f1;
+}
+.content p{
+    margin:25px 0; 
+    line-height: 1.7;
+    color: #444;
+    font-size: 0.98rem;
+    text-align: justify;
+}
+
+
+/*******************
+   content ends
+*******************/
+
+
+
+/*******************
+   footer starts
+*******************/
+footer{
+    padding: 20px;
+    background: #bdc3c7;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 0.9rem;
+}
+footer p>a{
+    color:#c0392b;
+    text-decoration: none;
+}
+footer p>a:hover{
+    color: #2980b9;
+}
+
+
+
+/*******************
+   footer ends
 *******************/
 
 
