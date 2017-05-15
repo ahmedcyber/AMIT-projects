@@ -217,6 +217,7 @@ header .menu li a:hover{
 }
 .content .latest-news .social{
     padding: 25px 0;
+    overflow: hidden;
 }
 .content .latest-news .social h4{
     letter-spacing: 2px;
