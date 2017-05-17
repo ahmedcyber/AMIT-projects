@@ -1,0 +1,58 @@
+/*******************
+general rules start
+*******************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*******************
+general rules end
+*******************/
+
+.parent{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent .box{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.parent .box img{
+    width: 100%;
+}
+.parent .overlay{
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    transform: translate(-100%,-100%);
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.parent .box:hover .overlay{
+    transform: translate(0,0);
+    opacity: 1;
+}

@@ -1,0 +1,118 @@
+/*******************
+general rules start
+*******************/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.wrapper{
+    width: 960px;
+    margin: auto;
+    background:#ecf0f1;
+}
+/*******************
+general rules end
+*******************/
+
+
+/*****************
+ main content starts
+*******************/
+.main-box{
+    width: 100%;
+    padding: 50px 0;
+}
+.main-box .row{
+    margin: 35px 0;
+}
+.main-box .row:last-of-type{
+    margin-bottom: 0;
+}
+.main-box h2{
+    text-align: center;
+    color:#d35400;
+    letter-spacing: 4px;
+    text-shadow: 0 4px 7px #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.main-box h2>span{
+    color:#000;
+    text-shadow: 0px 3px 4px #7f8c8d;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    background:#95A5A6;
+    -webkit-box-shadow: 0px 4px 7px #2d2d2d;
+    -moz-box-shadow: 0px 4px 7px #2d2d2d;
+    box-shadow: 0px 4px 7px #2d2d2d;
+    margin:0 auto;
+}
+ .container .box{
+    background: url(../images/building.jpeg) no-repeat center center;
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+.container .box:hover{
+    transform: scale(0.5);
+}
+.translate .container .box:hover{
+    transform: translate(-50%, -50%) scale(0.7); /*to target the box with translate effect*/
+}
+
+.text-centering .container {
+    text-align: center;
+}
+.text-centering .container .box{
+    display: inline-block;
+    margin: 100px;
+}
+.margin-auto .container .box{
+    margin: 100px auto;
+}
+.absolute .container{
+    position: relative;
+}
+.absolute .container .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:-100px;
+    margin-top:-100px;
+}
+.translate .container .box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flex .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*****************
+ main content ends
+*******************/
+
+
+
+

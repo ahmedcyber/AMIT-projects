@@ -1,0 +1,75 @@
+
+/****************************************************
+**************************************************
+*************************************************
+        my own frame work starts
+*************************************************
+************************************************
+***************************************************/
+.text-center{
+    text-align: center;
+}
+.row{
+    width: 100%;
+}
+.clear-fix{
+   display: block;
+   content: "";
+   clear: both;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg{
+    display: none;
+}
+.pull-left{
+    float: left;/*For Change Site Web To Arabic Try => .ft-left{float: right}*/
+}
+.pull-right{
+    float: right;
+}
+.heading{/*general rules for all headings*/
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.text-style{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.h1{
+    font-size: 2em;
+    margin-top: 13px;
+}
+.responsive-paragraph{
+    line-height:1.8;
+    font-size: 24px;
+}
+.responsive-image{
+    width: 100%;
+    display: block;
+}
+.image-circle{
+    border-radius: 50%;
+}
+.classic-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.image-thumbnails{
+    padding: 3px;
+    background-color:#95a5a6;
+    border: 1px solid grey;
+}
+.classic-link{
+    color: #000;
+    text-decoration: none;
+}
+/****************************************************
+**************************************************
+*************************************************
+        my own frame work ends
+*************************************************
+************************************************
+***************************************************/
