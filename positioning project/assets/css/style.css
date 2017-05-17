@@ -62,7 +62,7 @@ general rules end
     margin:0 auto;
 }
  .container .box{
-    background: url(../images/building.jpeg) no-repeat center center;
+    background: url(../images/building.jpg) no-repeat center center;
     background-size:cover;
     height: 200px;
     width: 200px;
