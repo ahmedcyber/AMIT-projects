@@ -16,6 +16,9 @@ if (result >= 90) {
 } else if (result <= 60) {
     cashe.innerHTML = " unfortunately you failed your grade is F , you need to study hard !!!!";
     photo.src = "http://www.clker.com/cliparts/j/R/Q/7/d/y/mr-unhappy-rock-md.png";
+} else if (result >= 60) {
+    cashe.innerHTML = " unfortunately , you have a second semester , you have to pass !!!!";
+    photo.src = "http://www.clker.com/cliparts/j/R/Q/7/d/y/mr-unhappy-rock-md.png";
 } else {
     cashe.innerHTML = "please enter a valid number not a text!!! <br> I really get frustrated from clients";
     photo.src = "http://experimentalgameplay.com/blog/wp-content/uploads/2009/09/egpTheme_numbers.png";
