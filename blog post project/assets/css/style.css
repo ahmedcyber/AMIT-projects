@@ -1,0 +1,157 @@
+/*******************
+general rules start
+*******************/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #c1e6ff;
+}
+.container{
+    max-width: 1140px;
+    margin: 20px auto;
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+    flex-flow: row wrap;
+}
+h1,h2{
+    margin: 0;
+}
+/*******************
+general rules end
+*******************/
+
+
+/*******************
+ main content starts
+*******************/
+.main-content{
+    width: 75%;
+}
+.main-content .description{
+    margin: 10px 0;
+}
+.main-content .description article{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+.main-content .description article:last-child{
+    margin-right: 0;
+}
+article h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #3498db;
+    margin-bottom: 9px;
+}
+article p{
+    line-height: 1.5;
+    color: #333;
+    font-size: 0.9rem;
+}
+.main-content .gallary{
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.main-content .gallary img{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+.main-content .gallary img:hover{
+    -webkit-transform: translatey(10px);    
+    transform: translatey(10px);
+}
+
+
+/*******************
+ main content ends
+*******************/
+
+
+/*******************
+ sidebar starts
+*******************/
+aside{
+    width: 25%;
+    padding-left: 15px;
+}
+aside .widget{
+    margin-bottom: 10px;
+}
+aside .widget:last-child{
+    margin-bottom: 0;
+}
+aside .widget header{
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+aside .widget .content{
+    background: #ecf0f1;
+    padding: 10px;
+}
+aside .widget .content p{
+    font-size: 0.83rem;
+    line-height: 1.45;
+    color:#555;
+}
+/*******************
+ sidebar ends
+*******************/
+
+
+
+/*******************
+  footer starts
+*******************/
+footer{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+footer .user{
+    float: left;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #3498db;
+}
+footer .user:hover img{
+    transform: rotateY(360deg);
+}
+footer .user img{
+    padding: 3px;
+    border: 2px double #444;
+    transition: transform 900ms linear;
+}
+footer .copyrights{
+    float: right;
+    margin-top: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:#c0392b;
+}
+/*******************
+  footer ends
+*******************/
+
