@@ -1,0 +1,83 @@
+/*from tablet to desktop screen (width less than 1200px)*/
+@media only screen and (max-width:1200px){
+    header .title {width: 100%; padding:0 2%;}
+    .row{padding: 0 2%;}
+    .omni-plan .plan-box div{padding:4px;}
+    .contact-form .my-form{width:75%;}
+    .omni-plan .plan-box div ul li{font-size: 88%;}
+}
+/*tablet view*/
+@media only screen and (max-width:1023px){
+    body{font-size: 17px;}
+    .icon-small{ width: 20px;}
+    .feature .feature-txt{ margin-bottom: 15px;}
+    .steps-work .steps-box .steps div {
+    height: 45px;
+    width: 45px;
+    padding: 13px;
+    text-align: center;
+    margin-right: 8px;
+}
+    .steps-work .steps-box {margin-top: 35px;}
+    .steps-work .steps-box .steps{margin-bottom: 35px;}
+    .steps-work .img-box img{width: 50%;}
+    .feature .feature-txt p{width: 80%;margin-left: 10%;}
+    .meals .meals-showcase figure .img-text p{font-size: 79%;}
+    .omni-plan .plan-box .monthly-price{font-size: 200%;}
+    .omni-plan .plan-box .meal-price{font-size: 85%;}
+    .omni-plan .plan-box div{padding:13px;}
+    .plan-box ul li{font-size: 88%;}
+    .city-feature{font-size: 94%;}
+    footer .footer-nav li, footer .social-links li{margin-right:4px;}
+    
+    
+}
+
+/*small tablet view*/
+@media only screen and (max-width:767px){
+    .row,.title{padding: 0 4%;}
+    .col{width: 100%;margin: 0 0 2% 0;}
+    header nav{display: none;}
+    body,html{font-size: 16px;}
+     h1{font-size: 160%}
+    h2{font-size: 130%;}
+    .icon-small{width: 15px;}
+    .feature .feature-txt p{width: 100%;margin-left: 0;}
+    .feature{padding-bottom: 30px;}
+    .steps-work{padding-top: 30px;}
+    .steps-work .steps-box .steps{margin-bottom: 25px;}
+    .steps-work .img-box img{width: 40%;}
+    .steps-work .steps-box .btn-app {margin-left: 0px;margin-right: 8px;}
+    .steps-work .steps-box .btn-app img{height: 40px;}
+
+    .cities{padding: 40px 0;}
+    .cities .city{font-size: 82%;}
+    .omni-plan .plan-box .monthly-price{font-size: 160%;}
+    .omni-plan .plan-box .meal-price{font-size: 75%;}
+    .omni-plan{padding: 40px 0; }
+    .omni-plan .row{padding: 0 1%;}
+    .omni-plan .plan-box div{padding:9px;}
+    footer .row{padding: 0;}
+}
+
+/*small phones view*/
+@media only screen and (max-width:480px){
+    .row{width: 100%;padding: 0 2%;}
+    h2{font-size: 104%; font-weight: 500;}
+    header .logo img{height: 75px;}
+    header .title h1{font-size: 100%;margin-top: 10px;}
+    .btn{padding: 8px 15px;}
+    .full-btn{margin-right: 0;padding: 12px;}
+    .meals .meals-showcase figure{float: none; width: 100%; margin-bottom: 10px;}
+    .meals .meals-showcase figure .img-text p{font-size: 120%;}
+    .steps-work h2{font-size: 81%; font-weight: 500;}
+    .steps-work .steps-box {margin-top: 30px;}
+    .steps-work .steps-box .steps p{width: 100%; font-size: 88%;}
+    .steps-work .steps-box .btn-app{margin-left: 0; margin-right: 7px;}
+    .testmonials blockquote:before{left: -11px;}
+    .contact-form{padding: 15px 0;}
+    .contact-form .my-form{width:100%;}
+    footer{padding: 20px;}
+    footer .footer-nav{float: none; width: 84%; margin: auto;text-align: center;}
+    footer .social-links{float: none; text-align: center; margin-top: 10px; }
+}
